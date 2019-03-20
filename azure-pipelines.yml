@@ -13,4 +13,4 @@ variables:
   imageName: 'shashankbarsin/bootcamp-demo:$(build.buildId)'
 
 steps:
-- script: docker build -f ./app -t developer-camp:test .
+- script: docker build -t developer-camp:dev ./app
